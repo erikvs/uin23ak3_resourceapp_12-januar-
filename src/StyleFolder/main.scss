@@ -1,0 +1,57 @@
+$color_1: #fff;
+$background-color_1: #25dfe6;
+$background-color_2: #ffffff;
+$border-color_1: #25dfe6;
+
+header {
+	width: 100%;
+	border: solid 1px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	h1 {
+		text-align: left;
+		padding: 1rem 1rem 1rem 2rem;
+		font-size: 35px;
+	}
+}
+.tab {
+	overflow: hidden;
+	border: 1px solid #25dfe6;
+	background-color: $background-color_1;
+	button {
+		background-color: $background-color_1;
+		border: none;
+		  outline: none;
+		  cursor: pointer;
+		  transition: 0.4s;
+		width: 100%;
+	}
+}
+button {
+	border: none;
+	padding: 1.5rem;
+	font-size: 1.2rem;
+	transition: 0.4s;
+	&:focus {
+		background-color: $background-color_1;
+		border: $border-color_1;
+		color: $color_1;
+	}
+}
+div.tabcontent {
+	border-top: solid 1rem #25dfe6;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+	padding: 6px 12px;
+	display: block;
+	transition: ease-in-out 0.7s;
+}
+body {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: $background-color_2;
+	overflow: hidden;
+	position: relative;
+}
