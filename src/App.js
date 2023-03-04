@@ -23,7 +23,7 @@ function App() {
 <main>
  
 <div id="tabcontent" class="tabcontent">
-    <h2>Velkommen til Arbeidskrav 2</h2>
+    <h2>Velkommen til Arbeidskrav 3</h2>
 </div>
 </main>
 
