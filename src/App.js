@@ -1,29 +1,22 @@
 import './StyleFolder/main.css';
-import Nav from './components/Nav';
+import { Routes, Route} from 'react-router-dom';
+import { Html } from './components/Html';
+import { Css } from './components/Css';
+import { Nav } from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <body>
-
-<header>
-    <h1>Ressursarkiv</h1>
-</header>
-
-
-
-<Nav />
-
-<main>
  
-<div id="tabcontent" class="tabcontent">
-    <h2>Velkommen til Arbeidskrav 3</h2>
-</div>
-</main>
-
-</body>
-    </div>
-  );
+   <h1>Ressursarkiv</h1>
+ 
+    <Nav />
+   <Routes>
+   <Route path="/" element={<Html />} />
+   <Route path="about" element={<Css />} />
+  </Routes>
+  </div>
+  )
 }
 
 export default App;
