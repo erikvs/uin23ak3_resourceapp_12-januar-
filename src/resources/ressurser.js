@@ -92,22 +92,5 @@ const resources = [
                 url: "https://www.section.io/engineering-education/getting-started-with-sanity-cms/"
             },
         ]
-    },
-]
-
-function createContent(index){
-    document.getElementById("category").innerHTML = resources[index].category;
-    document.getElementById("text").innerHTML = resources[index].text;
-    let list = document.getElementById("sources");
-    while (list.firstChild){
-        list.removeChild(list.firstChild)
     }
-    resources[index].sources.forEach((source) => {
-        let li = document.createElement("li");
-        let a = document.createElement("a");
-        a.href = source.url;
-        a.innerText = source.title;
-        li.appendChild(a);
-        list.appendChild(li);
-    })
-}
+]
