@@ -10,10 +10,10 @@ function App() {
  
    <h1>Ressursarkiv</h1>
  
-    <Nav />
+  <Nav />
    <Routes>
    <Route path="/" element={<Html />} />
-   <Route path="about" element={<Css />} />
+   <Route path="css" element={<Css />} />
   </Routes>
   </div>
   )

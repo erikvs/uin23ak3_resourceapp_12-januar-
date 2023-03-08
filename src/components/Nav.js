@@ -4,7 +4,7 @@ export function Nav(){
     return (
         <nav>
             <Link to='/'>Html</Link>
-            <Link to='/about'>Css</Link>
+            <Link to='/css'>Css</Link>
         </nav>
     )
 }
