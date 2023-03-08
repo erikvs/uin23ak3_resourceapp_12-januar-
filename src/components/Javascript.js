@@ -1,8 +1,8 @@
 import { resources } from "../resources/ressurser";
 
 
-export const Css = () => {
-    const field = resources.find((instance) => instance.category === "Css");
+export const Javascript = () => {
+    const field = resources.find((instance) => instance.category === "Javascript");
 
     return <>
 

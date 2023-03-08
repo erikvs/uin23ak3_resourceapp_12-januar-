@@ -8,10 +8,13 @@ export const Html = () => {
 
         <h3>{field.category}</h3>
         <p>{field.text}</p>
-    
-
-    
-        
+        <ul>
+        {field.sources.map((sources, index) => (
+          <li key={index}>
+            <a href={sources.title}>{sources.url}</a>
+          </li>
+        ))}
+      </ul>
 
     </>
 }

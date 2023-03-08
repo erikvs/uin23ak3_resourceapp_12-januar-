@@ -5,6 +5,10 @@ export function Nav(){
         <nav>
             <Link to='/'>Html</Link>
             <Link to='/css'>Css</Link>
+            <Link to='/Jacascript'>Javascript</Link>
+            <Link to='/React'>React</Link>
+            <Link to='/Sanity'>Sanity</Link>
+
         </nav>
     )
 }
