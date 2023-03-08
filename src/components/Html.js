@@ -11,7 +11,7 @@ export const Html = () => {
         <ul>
         {field.sources.map((sources, index) => (
           <li key={index}>
-            <a href={sources.title}>{sources.url}</a>
+            <a href={sources.url}>{sources.title}</a>
           </li>
         ))}
       </ul>
