@@ -1,54 +1,59 @@
 @charset "UTF-8";
 header {
-  width: 100%;
+  width: 95%;
   border: solid 1px;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  padding: 20px;
 }
 header h1 {
   text-align: left;
-  padding: 1rem 1rem 1rem 2rem;
-  font-size: 35px;
+  padding: 1rem 0rem 0rem 2rem;
+  font-size: 3rem;
 }
 
 .tab {
   overflow: hidden;
   border: 1px solid #25dfe6;
   background-color: #25dfe6;
-}
-.tab button {
-  background-color: #25dfe6;
-  border: none;
+  color: #000;
+  border: solid #fff 1px;
     outline: none;
     cursor: pointer;
     transition: 0.4s;
-  width: 100%;
+  width: 95%;
+  font-size: 2rem;
+  padding: 15px;
+  list-style-type: none;
 }
-
-button {
+.tab .tab a {
   border: none;
   padding: 1.5rem;
   font-size: 1.2rem;
   transition: 0.4s;
+  text-decoration: none;
 }
-button:focus {
+.tab .tab a:focus {
   background-color: #25dfe6;
   border: #25dfe6;
   color: #fff;
 }
 
-div.tabcontent {
-  border-top: solid 1rem #25dfe6;
+.tabcontent {
+  width: 95%;
   border-left: solid 1px;
   border-bottom: solid 1px;
   border-right: solid 1px;
-  padding: 6px 12px;
   display: block;
   transition: ease-in-out 0.7s;
+  padding: 20px;
+}
+.tabcontent h3 {
+  font-size: 2rem;
 }
 
 body {
-  width: 100%;
+  width: 95%;
   max-width: 900px;
   margin: 0 auto;
   background-color: #ffffff;

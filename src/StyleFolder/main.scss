@@ -4,51 +4,65 @@ $background-color_2: #ffffff;
 $border-color_1: #25dfe6;
 
 header {
-	width: 100%;
+	width: 95%;
 	border: solid 1px;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
+	padding: 20px;
 	h1 {
 		text-align: left;
-		padding: 1rem 1rem 1rem 2rem;
-		font-size: 35px;
+		padding: 1rem 0rem 0rem 2rem;
+		font-size: 3rem;
 	}
+
+
 }
 .tab {
 	overflow: hidden;
 	border: 1px solid #25dfe6;
 	background-color: $background-color_1;
-	button {
-		background-color: $background-color_1;
-		border: none;
-		  outline: none;
-		  cursor: pointer;
-		  transition: 0.4s;
-		width: 100%;
-	}
-}
-button {
+	color: #000;
+	border: solid #fff 1px;
+	  outline: none;
+	  cursor: pointer;
+	  transition: 0.4s;
+	width: 95%;
+	font-size: 2rem;
+	padding: 15px;
+	list-style-type: none;
+
+.tab a  {
 	border: none;
 	padding: 1.5rem;
 	font-size: 1.2rem;
 	transition: 0.4s;
+	text-decoration: none;
 	&:focus {
 		background-color: $background-color_1;
 		border: $border-color_1;
 		color: $color_1;
 	}
 }
-div.tabcontent {
-	border-top: solid 1rem #25dfe6;
+}
+.tabcontent {
+	width: 95%;
 	border-left: solid 1px;
 	border-bottom: solid 1px;
 	border-right: solid 1px;
-	padding: 6px 12px;
 	display: block;
 	transition: ease-in-out 0.7s;
+	padding: 20px;
+	
+		
+	
+		h3{
+			font-size: 2rem;
+		}
+
+		
 }
 body {
-	width: 100%;
+	width: 95%;
 	max-width: 900px;
 	margin: 0 auto;
 	background-color: $background-color_2;

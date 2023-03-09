@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 export function Nav() {
     return (
         <nav>
-            <Link to='/'>Html</Link>
-            <Link to='/css'>Css</Link>
-            <Link to='/javascript'>Javascript</Link>
-            <Link to='/react'>React</Link>
-            <Link to='/sanity'>Sanity</Link>
+            <Link className='tab' to='/'>Html</Link>
+            <Link className='tab' to='/css'>Css</Link>
+            <Link className='tab' to='/javascript'>Javascript</Link>
+            <Link className='tab' to='/react'>React</Link>
+            <Link className='tab' to='/sanity'>Sanity</Link>
         </nav>
     )
 }

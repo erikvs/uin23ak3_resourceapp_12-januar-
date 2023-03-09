@@ -10,7 +10,8 @@ import { Javascript } from './components/Javascript';
 function App() {
   return (
     <div className="App">
-      <h1>Ressursarkiv</h1>
+      <header><h1>Ressursarkiv</h1></header>
+      <nav className='tabcontent'>
       <Nav />
       <Routes>
         <Route path="/" element={<Html />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="react" element={<React />} />
         <Route path="sanity" element={<Sanity />} />
       </Routes>
+      </nav>
     </div>
   )
 }
